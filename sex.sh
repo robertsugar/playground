@@ -2,7 +2,7 @@
 #Self extracting gzip archives
 #Robert Sugar (robert.sugar@ebi.ac.uk) 2013
 #
-#Usage: 
+#Usage:
 #
 #1. append .gz file:
 #	cat sex.sh xxx.gz > xxx.sex 
@@ -15,4 +15,4 @@
 
 tail -c+352 < $0 | gunzip
 exit 0
------append after this----
+-----append after this-----
